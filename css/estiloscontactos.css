@@ -282,16 +282,16 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (max-width:650px 700px) {
+@media screen and (max-width:600px) {
     .contenedor-todo {
         max-width: 90%;
         min-width: 50%;
         width: 60%;
     }
     .contenedor-menu {
-        max-width: 90%;
+        max-width: 80%;
         min-width: 80%;
-        width: 70%;
+        width: 50%;
     }
     .contenedor-co{
         max-width: 100%;
