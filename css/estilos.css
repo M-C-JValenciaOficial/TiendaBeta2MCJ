@@ -60,7 +60,7 @@ ul {
 
 ul li {
     list-style: none;
-    margin: 0 20px;
+    margin: 0 10px;
     transition: 0.5s;
 }
 
@@ -311,9 +311,15 @@ footer {
 }
 
 @media screen and (max-width:900px) {
-    .contenedor-menu {
+    .contenedor-todo {
+        max-width: 100%;
+        min-width: 50%;
         width: 100%;
-
+    }
+    .contenedor-menu {
+        max-width: 100%;
+        min-width: 80%;
+        width: 99%;
     }
     header {
         background-position: center;
@@ -379,6 +385,7 @@ footer {
     }
     .content-foo h4 {
         border: none;
+        text-decoration: none;
     }
     .content-foo p {
         color: #ccc;
