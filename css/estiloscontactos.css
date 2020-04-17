@@ -170,7 +170,7 @@ ul2 {
 
 ul2 li {
     list-style: none;
-    margin: 0px 23px;
+    margin: 0px 10px;
     transition: 1.5s;
 }
 
@@ -202,7 +202,7 @@ ul2 li a:before {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10%;
     width: 100%;
     height: 100%;
     background: #c9990b;
@@ -294,9 +294,9 @@ footer {
         width: 50%;
     }
     .contenedor-co{
-        max-width: 100%;
+        max-width: 80%;
         min-width: 80%;
-        width: 500%;
+        width: 50%;
     }
     header {
         background-position: center;
