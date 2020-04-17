@@ -294,9 +294,9 @@ footer {
         width: 50%;
     }
     .contenedor-co{
-        max-width: 80%;
-        min-width: 80%;
-        width: 50%;
+        max-width: 600px;
+        min-width: 100px;
+        width: 500px;
     }
     header {
         background-position: center;
