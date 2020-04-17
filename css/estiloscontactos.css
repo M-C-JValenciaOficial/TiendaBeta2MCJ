@@ -284,9 +284,9 @@ footer {
 
 @media screen and (max-width:400px 800px) {
     .contenedor-todo {
-        max-width: 90%;
-        min-width: 50%;
-        width: 60%;
+        max-width: 500px;
+        min-width: 60px;
+        width: 400px;
     }
     .contenedor-menu {
         max-width: 80%;
@@ -294,9 +294,9 @@ footer {
         width: 50%;
     }
     .contenedor-co{
-        max-width: 600px;
-        min-width: 100px;
-        width: 500px;
+        max-width: 500px;
+        min-width: 60px;
+        width: 300px;
     }
     header {
         background-position: center;
