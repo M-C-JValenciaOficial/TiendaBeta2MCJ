@@ -237,7 +237,7 @@ footer {
     color: #9e9797;
 }
 
-@media screen and (max-width:400px 800px) {
+@media screen and (max-width:900px) {
     .contenedor-todo {
         max-width: 500px;
         min-width: 60px;
@@ -267,10 +267,6 @@ footer {
     .imagen-about-us {
         width: 90%;
     }
-    /* Galeria */
-    .imagen-cata {
-        width: 44%;
-    }
     /* Clientes */
     .cards {
         flex-direction: column;
@@ -291,10 +287,7 @@ footer {
     .sobre-nosotros .contenido-textos {
         width: 95%;
     }
-    /* Galeria */
-    .imagen-cata {
-        width: 95%;
-    }
+    
     /* Clients */
     .cards .card {
         height: 450px;

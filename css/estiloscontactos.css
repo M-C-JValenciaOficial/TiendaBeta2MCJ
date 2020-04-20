@@ -282,7 +282,7 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (max-width:400px 800px) {
+@media screen and (max-width:900px) {
     .contenedor-todo {
         max-width: 500px;
         min-width: 60px;
@@ -294,8 +294,8 @@ footer {
         width: 30%;
     }
     .contenedor-co{
-        max-width: 500px;
-        min-width: 60px;
+        max-width: 70px;
+        min-width: 230px;
         width: 300px;
     }
     header {

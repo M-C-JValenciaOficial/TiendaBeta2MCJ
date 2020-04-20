@@ -258,7 +258,7 @@ footer {
     color: #9e9797;
 }
 
-@media screen and (max-width:400px 800px) {
+@media screen and (max-width:900px) {
     .contenedor-todo {
         max-width: 500px;
         min-width: 60px;
@@ -304,6 +304,7 @@ footer {
     .cards .card:first-child {
         margin-bottom: 30px;
     }
+    }
     /* ABOUT US */
     .imagen-about-us {
         margin-bottom: 60px;
@@ -347,4 +348,3 @@ footer {
     .titulo-final {
         font-size: 20px;
     }
-}
