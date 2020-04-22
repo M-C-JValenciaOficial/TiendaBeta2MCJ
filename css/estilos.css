@@ -146,6 +146,7 @@ main .sobre-nosotros {
 .contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
+    background-color: black ;
 }
 
 .imagen-about-us {
@@ -157,26 +158,30 @@ main .sobre-nosotros {
 }
 
 .contenido-textos h3 {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
+    color: #ccc;
+    padding: 10px 0 0 0;
+    
 }
 
 .contenido-textos h3 span {
     background: #c9990b;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
     padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.5);
     margin-right: 5px;
 }
 
 .contenido-textos p {
-    padding: 0px 0px 30px 15px;
+    padding: 10px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+    color: rgb(255, 255, 255);
 }
 
 /* Galeria */
