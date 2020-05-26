@@ -297,6 +297,8 @@ footer {
         max-width: 70px;
         min-width: 230px;
         width: 300px;
+        align-items: center;
+        
     }
     header {
         background-position: center;

@@ -179,8 +179,6 @@ main .sobre-nosotros {
     text-align: justify;
 }
 
-
-
 /* Clients */
 
 .cards {
@@ -269,7 +267,7 @@ footer {
         min-width: 80%;
         width: 30%;
     }
-    .contenedor-co{
+    .contenedor-co {
         max-width: 500px;
         min-width: 60px;
         width: 300px;
@@ -304,47 +302,62 @@ footer {
     .cards .card:first-child {
         margin-bottom: 30px;
     }
-    }
-    /* ABOUT US */
-    .imagen-about-us {
-        margin-bottom: 60px;
-        width: 99%;
-    }
-    .sobre-nosotros .contenido-textos {
-        width: 95%;
-    }
-    /* Galeria */
-    .imagen-cata {
-        width: 95%;
-    }
-    /* Clients */
-    .cards .card {
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .cards .card img {
-        width: 90px;
-        height: 90px;
-    }
-    /* Footer */
-    .contenedor-footer {
-        flex-direction: column;
-        border: none;
-    }
-    .content-foo {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .content-foo h4 {
-        border: none;
-    }
-    .content-foo p {
-        color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
-    }
-    .titulo-final {
-        font-size: 20px;
-    }
+
+
+/* ABOUT US */
+
+.imagen-about-us {
+    margin-bottom: 60px;
+    width: 99%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 95%;
+}
+
+/* Galeria */
+
+.imagen-cata {
+    width: 95%;
+}
+
+/* Clients */
+
+.cards .card {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards .card img {
+    width: 90px;
+    height: 90px;
+}
+
+/* Footer */
+
+.contenedor-footer {
+    flex-direction: column;
+    border: none;
+}
+
+.content-foo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-foo h4 {
+    border: none;
+}
+
+.content-foo p {
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.titulo-final {
+    font-size: 20px;
+}
+}
