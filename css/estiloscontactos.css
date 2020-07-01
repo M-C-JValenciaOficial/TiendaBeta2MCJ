@@ -42,14 +42,19 @@ header {
 
 /*Menu*/
 
+.contenedor-menu{
+    align-items: center;
+}
+
 ul {
-    text-align: center;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    height: 30px;
+    width: 30%;
+    right: 500px;
+    top: 15px;
+    position: absolute;
 }
 
 ul {
@@ -136,7 +141,11 @@ header .textos-header {
 }
 
 /*contacto*/
+body .Contacto{
+    background-color: white;
+    height: 80px;
 
+}
 body .contenedor-contactoTitulo {
     display: flex;
     height: 50px;
@@ -220,7 +229,7 @@ ul2 li a:hover:before {
 
 .contenedor-co {
     position: absolute;
-    top: 83%;
+    top: 640px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -288,16 +297,37 @@ footer {
         min-width: 60px;
         width: 400px;
     }
-    .contenedor-menu {
-        max-width: 80%;
-        min-width: 80%;
-        width: 30%;
-    }
-    .contenedor-co{
-        width: 300px;
-        align-items: center;
-        
-    }
+    .contenedor-menu ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            height: 30px;
+            width: 30%;
+            right: 250px;
+            top: 15px;
+            position: absolute;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 0 1px;
+            transition: 0.5s;
+        }
+body {
+    background-color:white;
+}
+body .Contacto{
+    height: 100px;
+}
+body .Contacto .contenedor-co{
+    margin: 10px;
+    background-color: white;
+    position: absolute;
+    padding: 0;
+    align-items: center;
+    top: 650px;
+}
+
     header {
         background-position: center;
     }
